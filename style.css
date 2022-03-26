@@ -1,0 +1,87 @@
+body {
+    background-color: royalblue;
+}
+
+img {
+    float: center;
+}
+
+div {
+    padding: 5px;
+    border-style: dotted;
+    border-width: 10%;   
+}
+
+div:hover {
+    background-color: chartreuse;
+}
+
+h1 {
+    color: seagreen;
+}
+
+h3 {
+    color: powderblue;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 6px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(even){
+    background-color: rebeccapurple;
+}
+
+tr:hover {
+    background-color: darkgoldenrod;
+}
+
+ul {
+    padding: 3px;
+    width: 50%;
+}
+
+li {
+    border-style: dashed;
+    border-width: 5px;
+    border-radius: 12px;
+    background-color: aquamarine;
+}
+
+li:hover {
+    background-color: darkslateblue;
+}
+
+p {
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 12px;
+}
+
+form {
+    background-color: antiquewhite;
+    border-style: groove;
+    border-radius: 12px;
+    border-width: 2px;
+}
+
+input {
+    width: 100%;
+    border-style: solid black;
+    padding: 2px;
+    border-collapse: collapse;
+    border-radius: 2px;
+    float: center;
+}
+
+input{
+    float: center;
+    border-style: dotted;
+}
